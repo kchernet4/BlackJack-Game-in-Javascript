@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-image: url(./bg.jpeg);
+    background-size: cover;
+
+}
+
+p{
+    color: white;
+}
+h1 {
+    color: white;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: white;
+    width: 150px;
+    background-color: goldenrod;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+}

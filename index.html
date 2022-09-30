@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- connecting this html file to a css file called index.css -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>BlackJack</h1>
+    <!-- a paragraph that will display the main message of the game. has an id so that it could be used to access it from javascript -->
+    <p id="message">Want to play a round?</p>
+    <!-- a paragraph that will display the generated card numbers. has an id so that it could be used to access it from javascript -->
+    <p id="cards">Cards: </p>
+    <!-- a paragraph that will display the sum of the generaged card numbers. has an id so that it could be used to access it from javascript -->
+    <p id="sum">Sum: </p>
+    <!-- button that starts a game. To execute an operation when the button is clicked, an "onclick" attribute is used with the function name(startGame()) -->
+    <button onclick="startGame()">START GAME</button>
+    <!-- button that draws a new card. To execute an operation when the button is clicked, an "onclick" attribute is used with the function name(newCard()) -->
+    <button onclick="newCard()">NEW CARD</button>
+    <!-- a paragraph that will display the player name and chips. has an id so that it could be used to access it from javascript -->
+    <p id="player"></p>
+    <!-- connecting this html file to a javascript file called index.js -->
+    <script src="index.js"></script>
+</body>
+</html>
